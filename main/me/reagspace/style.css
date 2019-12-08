@@ -1,0 +1,102 @@
+/** 
+ * 
+ * design based on http://www.friendproject.net/ creditz 2 those guys (I also "borrowed" some images)
+ * otherwise I did this with my own sweat, blood, and tears at 4am
+ * - reag 
+ * 
+ * **/
+
+body {
+	background: #000 url('layout/pinkcheck.png');
+	color: #fff;
+	margin: auto;
+	width: 850px;;
+}
+
+body, table {font: 14px serif;}
+
+a, .fakelink {color: magenta;}
+
+h1, h2, h3, th {
+	background: pink;
+	color: #000;
+	margin: 0;
+	width: 100%;
+}
+
+h1 {font-size: 125%;}
+
+h2, h3 {font-size: 100%;}
+
+h3 {margin: 2px 3px; width: 99%;}
+
+img {max-width: 100%;}
+
+table {width: 100%;}
+
+th {
+	text-align: left;
+	width: auto;
+}
+
+.box {
+	background: #000;
+	border: pink 3px dashed;
+	margin: 10px 0;
+	padding: 3px;
+}
+
+.center {text-align: center;}
+
+.container {
+	margin: 10px 0;
+	width: 100%;
+}
+
+.column {}
+
+.cleft {
+	float: left;
+	width: 300px;
+}
+
+.cright {
+	float: right;
+	width: 525px;
+}
+
+.footer {
+	clear: both;
+	text-align: center;
+	width: 100%;
+}
+
+.navbar {
+	background: #000;
+	box-sizing: border-box;
+	height: 40px;
+	padding: 0 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.profimg {
+	float: left;
+	padding: 5px 5px 0 0;
+	width: 150px;
+}
+
+.title {
+	font: 200% sans-serif;
+	text-align: left;
+}
+
+.title a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#contact table {
+	color: #003399;
+	font: 12px monospace;
+}

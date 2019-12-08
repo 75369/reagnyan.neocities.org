@@ -1,0 +1,19 @@
+body, html {margin: 0; padding: 0; width: 100%;}
+
+body {
+    background: #fff fixed;
+    color: red;
+    overflow-x: hidden;
+}
+
+a {color: red;}
+
+img {max-width: 100%;}
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.content {text-align: center;}

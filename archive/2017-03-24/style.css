@@ -1,0 +1,124 @@
+/** 
+* how's it goin bros my name is peeeeeeeeeeewdiepie 
+* css for https://siralos.neocities.org/
+* made on and for a 1080p resolution
+**/
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+body {
+  background: #000;
+  background-attachment: fixed;
+  background-image: url('img/repeat.jpg');
+  background-repeat: repeat;
+  color: #fba557;
+  font-family: "Crimson Text";
+  font-size: 21px;
+  padding-top: 140px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+  
+a {
+  color: #fba557;
+  text-decoration: none;
+  text-shadow: 0 0 0.5em #fba557;
+}
+  
+a:hover {
+  color: #c84b53;
+  text-shadow: 0 0 0.5em #c84b53;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+}
+  
+table {
+  border: none;
+  text-align: center;
+  width:  inherit;
+}
+
+h1 {
+  background-color: #191919;
+  border: 3px solid #191919;
+  font-size: 24px;
+  margin: 20px;
+}
+
+h2 {
+  background-color: #191919;
+  border: 3px solid #191919;
+  font-size: 22px;
+  margin: 20px;
+}
+
+select {
+  background-color: #000;
+  border: 3px solid #191919;
+  border-radius: 15px 50px;
+  color: #fba557;
+  font-family: "Crimson Text";
+  font-size: 21px;
+  height: 40px;
+  text-align: center;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+  
+#box {
+  background-color: #000;
+  border: 1px double #191919;
+  height: 550px;    
+  opacity: 0.9;
+  overflow: auto;
+  padding: 25px;
+  width: 475px;
+}
+  
+#box-nav {
+  background-color: #000;
+  border: 1px double #191919;
+  height: 30px; 
+  margin-top: 15px;
+  opacity: 0.9;   
+  overflow: auto;
+  padding: 20px;
+  width: 100px;
+}
+  
+#img-corner {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  z-index: -10;
+}
+
+.nyeh {
+  background-color: #000;  
+  border: 3px solid #191919;
+  border-radius: 15px 50px;
+  line-height: 37px;
+}
+
+.divider {
+  margin-top: 10px; 
+  margin-bottom: 20px;
+}
+
+.steponme {
+  border: 3px solid #191919;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+#s-m-t-tooltip {
+  background-color: #191919;
+  display: block;
+  font-size: 16px;
+  line-height: 11px;
+  margin: 24px 14px 7px 12px;
+  padding: 10px;
+  z-index: 99; 
+}

@@ -1,0 +1,58 @@
+body, html {margin: 0; padding: 0;}
+
+body {
+    background: #000 url('bg.gif') fixed;
+    color: #fff;
+}
+
+a {color: #339933;}
+
+h1, h2 {
+    background: #005500;
+    color: #000;
+    display: inline-block;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+}
+
+img {max-width: 100%;}
+
+.container {
+    background: url('thinkpad.png') top center no-repeat;
+    box-sizing: border-box;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 916px;
+    padding: 0;
+    position: absolute;
+}
+
+.content {
+    box-sizing: border-box;
+    margin: 35px auto;
+    overflow: auto;
+    padding: 10px 15px;
+    height: 504px;
+    width: 685px;
+}
+
+.archive {text-align: center; width: 100%;}  
+
+.archive a {
+    background: none;
+    border: none;
+    max-width: 40%;
+}  
+.archive img {
+    border: #005500 1px solid; 
+    margin: 5px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin: 1px; padding: 1px;
+    height: 125px;
+    width: 125px;
+}

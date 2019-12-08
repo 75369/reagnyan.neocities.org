@@ -1,0 +1,214 @@
+<!DOCTYPE html> 
+<html>
+  <!--
+  ALL IN ONE PAGE BY HTTP://BITTER-SMILE.TUMBLR.COM/ / HTTP://VP.GOD.JP/
+  YOU MAY EDIT AND GO WILD WITH YOUR OWN SKILL, BUT RESPECT THE STANDARD RULES
+  DO NOT DELETE CREDIT / MOVE THEM TO SECONDARY PAGE
+  Have fun :3
+  http://pinkmagenta.tumblr.com/pg/01
+  -->
+  <head>
+    <meta charset="UTF-8">
+    <title>LAST×DIMENSION</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+<!-- Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<!-- All in one tab -->
+
+<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+  $('.tabs .tab-links a').on('click', function(e) {
+  var currentAttrValue = $(this).attr('href');
+  
+  // Show/Hide Tabs
+  $('.tabs ' + currentAttrValue).fadeIn(1000).siblings().hide();
+  
+  // Change/remove current tab to active
+  $(this).parent('li').addClass('active').siblings().removeClass('active');
+  
+  e.preventDefault();
+  });
+  });
+  </script>
+  
+  <script>
+  $(document).ready(function() {
+  $('#filterOptions li a').click(function() {
+  // fetch the class of the clicked item
+  var ourClass = $(this).attr('class');
+  
+  // reset the active class on all the buttons
+  $('#filterOptions li').removeClass('active');
+  // update the active state on our clicked button
+  $(this).parent().addClass('active');
+  
+  if(ourClass == 'all') {
+  // show all our items
+  $('#ourHolder').children('div.item').show();
+  }
+  else {
+  // hide all elements that don't share ourClass
+  $('#ourHolder').children('div:not(.' + ourClass + ')').hide();
+  // show all elements that do share ourClass
+  $('#ourHolder').children('div.' + ourClass).show();
+  }
+  return false;
+  });
+  });
+</script>
+
+<!--- Corner image: --->
+<img src="http://i.imgur.com/AMli6o2.png" title="хорошо~" style="position:fixed; bottom:0px; right:0px;">
+
+<body>
+    <!-- The Post-->
+    <div class="title">LAST×DIMENSION</div> <!-- Title on left top -->
+    <div class="menu">
+        <ul>
+            <li><a href="http://myanimelist.net/profile/estonja">anime list</a></li>
+            <li><a href="http://schoolido.lu/user/Luka-chama/">schoolido.lu</a></li>
+            <li><a href="https://twitter.com/eeesti">twitter</a></li>
+            <li><a href="http://bitter-smile.tumblr.com">(theme)</a></li>
+        </ul>
+    </div>
+    
+    <div class="nav">
+        <div class="tabs">
+            <ul class="tab-links">
+                <li class="active" style="margin-left:-30px">
+                    <a href="#tab1">☆☆☆</a></li>
+                <li><a href="#tab2">intro</a></li>
+                <li><a href="#tab3">about</a></li>
+                <li><a href="#tab4">idols</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="container">
+    
+    </div>
+    
+    <div class="tabs">
+    
+    <!-- TAB 1 -->
+    <div id="tab1" class="tab active">
+        <div class="tab-content">
+            <div id="postsmeong">
+            </div>
+        </div>
+    </div>
+    
+    <!-- TAB 2 -->
+    <div id="tab2" class="tab">
+        <div class="tabcontent">
+            <div id="posts">
+                <article>
+                    <div class="biodata">
+                        <img src="https://i.imgur.com/XnmjCO2.jpg">
+                        <br>
+                        <!-- INTRO -->
+                        <!--<div class="biodatatitle">Data</div>--->
+                            <p><span>name:</span> Luka, Reagan</p>
+                            <p><span>age:</span> 17 (last year of HS)</p>
+                            <p><span>gender:</span> none</p>
+                            <p><span>pronouns:</span> they/them</p>
+                            <p><span>country:</span> Canada</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div><!---tab2 div--->
+    
+    <!-- ABOUT -->
+    <div id="tab3" class="tab">
+        <div class="tabcontent">
+            <div id="posts">
+                <article>
+                    <!-- about -->
+                    <div class="biodata">
+                    <center>
+                        <img src="http://66.media.tumblr.com/e04f4c52e423c8c26c1a113f0d980ab7/tumblr_inline_oe9z2ziF3d1sd859g_250.png"><br>
+                        = <a href="/tagged/userbox">other userboxes</a> =
+                    </center>
+                    <div class="biodataquote">about</div>
+                    Bonsoir. ☆  
+                    <br><br>My personal tweets are a mess and I often say things that may not make sense, but I try to remain coherent. ;;
+                    <br><br>I enjoy anime/mango, computers & tech, trying to play bass, and video games.
+                    <br><br>Je peux parler le français, mais je ne l'ai pas pratiqué récemment.
+                    </div>
+                </article>
+            
+                <div id="tagbox">
+                    <!-- Tag category title 2 --->
+                    <div class="biodataquote">favs</div>
+                    <!-- Tag content 2 --->
+                    <div class="tagcontent">
+                        <a>Danganronpa</a>
+                        <a>Higurashi no Naku Koro ni</a>
+                        <a>IDOLiSH7</a>
+                        <a>Kuroshitsuji</a>
+                        <a>Love Live!</a>
+                        <a>Tokyo 7th Sisters ♥</a>
+                        <a>Vocaloid</a>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div><!--- tab3 div --->
+    
+    <!-- IDOLS -->
+    <div id="tab4" class="tab">
+        <div class="tabcontent">
+            <div id="posts">
+                <article>
+                    <div class="biodata">
+                    <div class="biodataquote">game info</div>
+                    <ul>
+                        <li>SIF EN: <a href="http://schoolido.lu/user/Luka-chama/#43820">062947699</a>
+                        <ul>
+                            <li><a href="https://twitter.com/eeesti/status/721128777816870913">Reached rank 100 on 15/04/2016</a>
+                            <li><a href="https://twitter.com/eeesti/status/758424445337923584">Reached rank 150 on 27/07/2016</a>
+                            <li> <a href="https://twitter.com/eeesti/status/747500724146274304">Ranked 298 in the Eli/Rin score match</a>
+                        </ul>
+                        <li>T7S ID: FBgRUAU
+                        <ul>
+                            <li> <a href="https://twitter.com/eeesti/status/757187208306581505">Reached level 100 on 24/07/2016</a>
+                            <li><a href="https://twitter.com/eeesti/status/720567277414850560">Ranked 125 in the 17th Battlive (DID IT FOR FERB)</a>
+                        </ul>
+                        <li>IDOLiSH7 ID: 819034611
+                    </ul>
+                    <br>
+                    <div class="biodataquote">best idols</div>
+                    <img src="https://i.imgur.com/PDBWK4g.png">
+                    </div>
+                </article>  
+            </div>
+        </div> <!--- tab4 div --->
+    </div> 
+</div> 
+    
+    <!-- Optional tabs. Too add, simply copy paste this, without <!-- thingy, and change the tab number to number 5, 6, 7, etc
+    
+    <div id="tab5" class="tab">
+		<div class="tabcontent">
+			<div id="posts">
+			</div>
+		</div>
+    </div>
+    
+    -->
+    
+    <!-- END OF TABS -->
+    </div>

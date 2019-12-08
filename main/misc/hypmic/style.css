@@ -1,0 +1,111 @@
+/*
+
+I made this style last year and knew it would come in handy lol
+designed after the official hypmic site https://hypnosismic.com/character (or at least how it used to look anyway)
+
+*********************************************************************************************/
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2') format('woff2'), url('//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff') format('woff'), url('//fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf');
+}
+
+/********************************************************************************************/
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Noto Sans Japanese', sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+a {
+  color: #ffe500;
+  text-decoration: none;
+}
+
+a:hover {color: #2c4c37;}
+
+b {color: #213061;}
+
+img, iframe {max-width: 100%;}
+
+h1, h2 {
+  background: #000;
+  display: inline-block;
+  font-size: 200%;
+  line-height: 46px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+h1, h3 {margin: 0;}
+
+h2 {
+  font-size: 120%;
+  padding: 5px 10px;
+}
+
+h3 {
+  font-size: 120%;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-transform: uppercase;
+}
+
+table {margin: auto;}
+
+td {
+  padding: 0 5px;
+  vertical-align: middle;
+}
+  
+/********************************************************************************************/
+
+.center, .chars {text-align: center;}
+
+.content {
+  background-color: #6775a8;
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 100px 100px;
+  position: relative;
+  width: 100%;
+}
+
+.cds img {
+  width: 200px;
+}
+
+.chars img {
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+  object-fit: cover;
+}
+
+.footer {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.logo img {
+  background: #000;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.preview img {
+  max-height: 300px;
+}
+  
+/********************************************************************************************/
+
+@media only screen and (max-width: 1099px) {
+  body {width: 100%;}
+  .content {padding: 50px;}
+}

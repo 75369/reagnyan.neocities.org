@@ -1,0 +1,52 @@
+/** 
+    made by reagan circa 2019
+    neocities: siralos
+    twitter: haiflife2
+**/
+@import url('../fonts/fontname/font.css');
+body, html {margin: 0; padding: 0;}
+div, p {margin: 1em 0;}
+img {max-width: 100%;}
+.center {text-align: center;}
+.hover {text-decoration: underline dashed #fff;}
+
+/** general elements **/
+body {
+    background: #000;
+    color: #fff;
+    font: 18px sans-serif;
+}
+a {
+    color: #aae532;
+    text-decoration: none;
+}
+
+/** classes **/
+.container {
+    background: #4a5889 url('p3p.png') no-repeat right;
+    background-size: auto 400px;
+    box-sizing: border-box;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.content {
+    box-sizing: border-box;
+    height: 100%;
+    overflow: auto;
+    padding: 0 200px 0 1em;
+}
+.mobile {display: none;}
+
+/** small **/
+@media only screen and (max-width: 500px) {
+    .container {
+        background: #4a5889;
+        height: auto;
+    }
+    .content {
+        height: auto;
+        padding: 0 1em;
+    }
+    .mobile {display: block;}
+}
