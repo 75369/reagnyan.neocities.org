@@ -6,7 +6,10 @@ body {
 	font: 16px 'MS Gothic', monospace;
 }
 
-a {color: red;}
+a {
+	color: green;
+	text-decoration: none;
+}
 
 img {max-width: 100%;}
 
@@ -18,6 +21,16 @@ h1 {
 	padding: 10px 0;
 	text-align: center;
 }
+
+li {list-style-type: none;}
+
+li:before {
+	content: '\271E';
+	margin-left: -20px;
+	margin-right: 5px;
+}
+
+ul {margin: 0; padding: 0 0 0 15%;}
 
 .container {
 	box-sizing: border-box;
@@ -46,6 +59,8 @@ h1 {
 	overflow-y: auto;
 	width: 100%;
 }
+
+.side {font: 14px 'MS Gothic', monospace;}
 
 #main {
 	grid-area: main;
