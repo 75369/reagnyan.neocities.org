@@ -1,0 +1,26 @@
+body {
+    background: #000 url('bg.png') fixed repeat;
+    color: #fff;
+}
+a {
+    color: #708090;
+}
+.container {
+    background: #000;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 10px;
+}
+.preview img {
+    object-fit: cover; 
+    height: 200px; 
+    width: 200px;
+}
+#newest img {
+    vertical-align: middle; 
+    padding: 0 5px 3px 0;
+}
+#newest::before {
+    content: url('updated.gif'); 
+    padding: -50%;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Rainy Hearts';
+    src: 
+        url('rainyhearts.ttf') format('truetype'),
+        url('rainyhearts.woff2') format('woff2'),
+        url('rainyhearts.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
