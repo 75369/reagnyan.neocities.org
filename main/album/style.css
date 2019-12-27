@@ -1,7 +1,4 @@
-/** 
-	just repurposing some old layout I made based on ye olde neopets dot com
-	I just really wanted 2 use it for somehting again ok
-**/
+
 /** copypasta **/
 body, html {margin: 0; padding: 0;}
 img {max-width: 100%;}
@@ -10,9 +7,8 @@ img {max-width: 100%;}
 
 /*********************** dnddfhfhhfsdhjlkfshkljfhkjskdl */
 body {
-	background: #fff;
-	font: 8pt 'Verdana', sans-serif;
-	max-width: 888px;
+	background: #000;
+	font: 10pt 'Verdana', sans-serif;
 }
 a {
 	color: blue;
@@ -29,6 +25,18 @@ h3 {
 hr {border: 1px solid #f3f3f3;}
 
 /*********************** shit */
+.container {
+    background: #fff;
+    border: 4px pink double;
+    box-sizing: border-box;
+    margin: 1em auto; 
+    max-width: 1000px;
+    padding: 1em;
+}
+.content {
+    box-sizing: border-box;
+    padding: 0.5em;
+}
 .gallery {
 	display: flex;
 	align-items: center;
@@ -39,61 +47,9 @@ hr {border: 1px solid #f3f3f3;}
 .gallery img {
 	flex-grow: 1;
 	margin: 1px;
-	max-width: 30%;
-	padding: 1px;
-}
-
-/*********************** neo related */
-.content {
-	left: 140px;
-	position: absolute;
-	top: 65px;
-	width: 600px;
-}
-.footer {
-	color: #696969;
-	padding: 30px;
-	text-align: center;
-}
-.neo {
-	background: #fff url("img/l_maraqua.png") no-repeat;
-	min-height: 1000px;
-	left: 0px;
-	position: absolute;
-	top: 0px;
-	min-width: 740px;
-}
-.time {
-	background-color: #fbfd64;
-	border: 1px solid #000;
-	font-weight: bold;
-	position: absolute;
-	height: 20px;
-	left: 7px;
-	line-height: 20px;
-	text-align: center;
-	top: 490px;
-	width: 110px;
-}
-.promo {
-	left: 3px;
-	position: absolute;
-	top: 540px;
-	z-index: 10;
-	width: 130px;
-}
-.user {
-	margin-top: 10px;
-	text-align: center;
-}
-.welcome {
-	color: #000;
-	font-size: 7.5pt;
-	font-weight: bold;
-	left: 430px;
-	position: absolute;
-	top: 11px;
-}
-.welcome span {
-    color: #fff;
+    max-width: 30%;
+    object-fit: cover;
+    padding: 1px;
+    height: 300px;
+    width: 300px;
 }
