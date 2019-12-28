@@ -1,0 +1,53 @@
+body, html {margin: 0; padding: 0;}
+
+body {
+    background: #000 url('bg.gif') fixed;
+    color: #fff;
+}
+a {color: pink;}
+h1 {
+    margin: 1px;
+    text-align: center;
+    text-decoration: underline wavy magenta;
+}
+h2 {
+    background: magenta;
+    color: #000;
+    display: inline-block;
+    margin: 1px;
+    padding: 5px;
+}
+img {max-width: 100%;}
+.center {text-align: center;}
+.container {
+    box-sizing: border-box;
+    margin: 5px auto;
+    max-width: 1200px;
+    padding: 1em;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header  {
+    text-align: center;
+}
+.header, .section  {
+    background: #000;
+    border: 4px double magenta;
+    padding: 1em;
+}
+.section {
+    box-sizing: border-box;
+    flex: 50%;
+    height: 400px;
+    max-width: 50%;
+    overflow: auto;
+}
+@media (max-width: 800px) {
+    .section {
+        flex: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+}
