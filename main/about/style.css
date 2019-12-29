@@ -45,18 +45,38 @@ h1::before, h1::after {
 }
 .container {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: 1000px;
 }
 .content {
     background: #dea5a4 url('img/bg2.gif') repeat;
     border: 4px double #000;
     box-sizing: border-box;
     color: #000;
-    margin: 0 10px;
     padding: 0 10px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.flex .content {
+    flex: 50%;
+    height: 500px;
+    max-width: 50%;
+    overflow: auto;
 }
 
 /** special text **/
 .big {font-size: 32px;}
 .center {text-align: center;}
 .hover {text-decoration: underline dashed #000;}
+
+/** tiny **/
+@media (max-width: 700px) {
+    .flex .content {
+        flex: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+}
