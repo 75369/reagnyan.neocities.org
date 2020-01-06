@@ -1,47 +1,37 @@
 body, html {margin: 0; padding: 0;} 
-
 body {
 	background: #000 url('index/bg.png');
 	color: #fff;
 	font: 16px 'MS Gothic', monospace;
 }
-
 a {
-	color: green;
+	color: #008000;
 	text-decoration: none;
 }
-
 img {max-width: 100%;}
-
 h1 {
-	border: green 4px double;
-	color: green;
+	border: #008000 4px double;
+	color: #008000;
 	font-size: 22px;
 	margin: 0;
 	padding: 10px 0;
 	text-align: center;
 }
-
 h2 {
 	font-size: 18px;
 }
-
 hr {
 	border: 0;
 	border-bottom: 1px #fff solid;
 	height: 1px;
 }
-
 li {list-style-type: none;}
-
 li:before {
 	content: '\271E';
 	margin-left: -20px;
 	margin-right: 5px;
 }
-
 ul {margin: 0; padding: 0 0 0 15%;}
-
 .container {
 	box-sizing: border-box;
 	display: grid;
@@ -56,28 +46,22 @@ ul {margin: 0; padding: 0 0 0 15%;}
 	padding: 10px;
 	width: 100%;
 }
-
 .content {
 	padding: 10px;
 }
-
 .section, iframe {
 	background: #000;
 	box-sizing: border-box;
-	border: green 4px double;
+	border: #008000 4px double;
 	height: 100%;
 	overflow-y: auto;
 	width: 100%;
 }
-
 .side {font: 14px 'MS Gothic', monospace;}
-
 #main {
 	grid-area: main;
 	max-width: 600px;
 	min-width: 300px;
 }
-
 #left {grid-area: left;}
-
 #right {grid-area: right;}
