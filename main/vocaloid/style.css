@@ -1,0 +1,62 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+body {
+	background: #000 url('mikubg.png') fixed;
+	color: #fff;
+	font: 16px sans-serif;
+}
+a {color: orange;}
+h1, h2 {
+	background: #000;
+	margin: 0;
+}
+h1 {
+	display: block;
+	font-size: 150%;
+	padding: 15px;
+}
+h2 {
+	display: inline-block;
+	font-size: 110%;
+	padding: 5px;
+}
+img {max-height: 100%; max-width: 100%;}
+table {
+	margin: 1em auto;
+	max-width: 790px;
+}
+table, tr {
+	border: 0 solid #000;
+	border-collapse: collapse;
+}
+td {
+	height: 350px;
+	width: 50%;
+	padding: 5px;
+}
+.artistimg img {
+	max-height: 100px;
+	max-width: 100px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+.content {
+	background: #614051;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 15px;
+	width: 70%;
+}
+.nav a {
+	background: #000;
+	display: inline-block;
+	margin: 1px 0;
+	padding: 5px;
+	text-decoration: none;
+}

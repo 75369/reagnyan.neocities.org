@@ -32,6 +32,7 @@ li:before {
 	margin-right: 5px;
 }
 ul {margin: 0; padding: 0 0 0 15%;}
+.new::after {content:url('index/new.gif');}
 .container {
 	box-sizing: border-box;
 	display: grid;
