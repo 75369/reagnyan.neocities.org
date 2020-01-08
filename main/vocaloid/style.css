@@ -45,13 +45,14 @@ td {
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
+	min-width: 460px;
 }
 .content {
 	background: #614051;
 	box-sizing: border-box;
 	margin: 0 auto;
 	padding: 15px;
-	width: 70%;
+	width: 80%;
 }
 .nav a {
 	background: #000;

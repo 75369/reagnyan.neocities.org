@@ -66,3 +66,20 @@ ul {margin: 0; padding: 0 0 0 15%;}
 }
 #left {grid-area: left;}
 #right {grid-area: right;}
+@media (max-width: 730px) {
+	.container {
+		grid-template-areas: "left" "main" "right";
+		grid-template-columns: 100%;
+		height: auto;
+		max-height: none;
+		max-width: 100%;
+	}
+	#main {
+		width: 100%;
+		max-width: 100%;
+		min-width: auto;
+	}
+	#left {
+		max-height: 250px;
+	}
+}
