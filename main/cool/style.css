@@ -44,6 +44,7 @@ img {max-width: 100%;}
     max-width: 50%;
     overflow: auto;
 }
+.small img {max-height: 125px;}
 @media (max-width: 800px) {
     .section {
         flex: 100%;
