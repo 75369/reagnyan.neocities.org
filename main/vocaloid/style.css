@@ -5,11 +5,11 @@ body, html {
 	width: 100%;
 }
 body {
-	background: #000 url('mikubg.png') fixed;
+	background: #000 url('mikubg.png') fixed repeat;
 	color: #fff;
 	font: 16px sans-serif;
 }
-a {color: orange;}
+a {color: #ffa500;}
 h1, h2 {
 	background: #000;
 	margin: 0;
@@ -38,13 +38,9 @@ td {
 	width: 50%;
 	padding: 5px;
 }
-.artistimg img {
-	max-height: 100px;
-	max-width: 100px;
-}
 .container {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 900px;
 	min-width: 460px;
 }
 .content {
@@ -52,7 +48,7 @@ td {
 	box-sizing: border-box;
 	margin: 0 auto;
 	padding: 15px;
-	width: 80%;
+	width: 100%;
 }
 .nav a {
 	background: #000;
@@ -78,4 +74,11 @@ td {
 .scroll ul {
 	margin: 0;
 	padding: 0 1em;
+}
+@media (max-width: 525px) {
+	.cover {display: none;}
+	td {
+		height: auto;
+		width: 100%;
+	}
 }

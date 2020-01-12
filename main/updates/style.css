@@ -1,10 +1,10 @@
 body {
     background: #000 url('bg.png') fixed repeat;
     color: #fff;
+    margin: 0;
+    padding: 0;
 }
-a {
-    color: #708090;
-}
+a {color: #708090;}
 .container {
     background: #000;
     margin: 0 auto;

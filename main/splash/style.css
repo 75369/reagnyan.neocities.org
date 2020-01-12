@@ -1,16 +1,13 @@
 body, html {margin: 0; padding: 0;}
-
 body {
     background: #000 url('bg.jpg');
     color: #fff;
     font: 16px 'MS Gothic', monospace;
 }
-
 a {
     color: #6c0909;
     text-decoration: none;
 }
-
 h1 {
     border: #6c0909 1px solid;
     font-size: 32px;
@@ -18,11 +15,8 @@ h1 {
     padding: 10px;
     text-align: center;
 }
-
 img {max-width: 100%;}
-
 .center {text-align: center;}
-
 .container {
     margin: 10px auto;
     max-width: 332px;

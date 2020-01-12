@@ -1,8 +1,9 @@
+@import url('../fonts/callingcode/font.css');
 body, html {margin: 0; padding: 0;} 
 body {
 	background: #000 url('index/bg.png');
 	color: #fff;
-	font: 16px 'MS Gothic', monospace;
+	font: 16px 'Calling Code', 'MS Gothic', monospace;
 }
 a {
 	color: #008000;
@@ -58,7 +59,7 @@ ul {margin: 0; padding: 0 0 0 15%;}
 	overflow-y: auto;
 	width: 100%;
 }
-.side {font: 14px 'MS Gothic', monospace;}
+.side {font: 14px 'Calling Code', 'MS Gothic', monospace;}
 #main {
 	grid-area: main;
 	max-width: 600px;

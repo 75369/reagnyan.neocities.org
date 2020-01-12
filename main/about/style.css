@@ -59,18 +59,29 @@ h1::before, h1::after {
     flex-wrap: wrap;
     width: 100%;
 }
-
 .flex .content {
     flex: 50%;
     height: 500px;
     max-width: 50%;
     overflow: auto;
 }
+.gallery img {
+	margin: 1px;
+    object-fit: cover;
+    padding: 1px;
+    height: 200px;
+    width: 200px;
+}
 
-/** special text **/
+/** modifiers **/
 .big {font-size: 32px;}
 .center {text-align: center;}
 .hover {text-decoration: underline dashed #000;}
+.fullwidth {
+    flex: 100% !important;
+    max-width: 100% !important;
+}
+.thumbs img {height: 80px;}
 
 /** tiny **/
 @media (max-width: 700px) {
