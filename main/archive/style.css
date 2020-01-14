@@ -1,36 +1,51 @@
 body, html {margin: 0; padding: 0;}
-
 body {
     background: #000 url('bg.gif') fixed;
     color: #fff;
     font: 16px sans-serif;
 }
-
 a {color: #339933;}
-
 h1, h2 {
     background: #005500;
+    border: #008000 4px double;
     color: #000;
-    display: inline-block;
-    margin: 0;
-    padding: 8px;
+    margin: 0 auto;
     text-align: center;
 }
-
+h1 {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 6px;
+}
+h2 {
+    display: inline-block;
+    padding: 5px 10px;
+}
 img {max-width: 100%;}
+table {
+    
+    width: 100%;
+}
+table, th, td {
+    border: #008000 4px double;
+    border-collapse: collapse;
+}
+td {
+    max-width: 50%;
+    padding: 5px;
+}
 
 .container {
     margin: 1em auto;
     max-width: 900px;
 }
-
 .content {
     background: #000;
+    border: #008000 4px double;
     padding: 2em;
 }
-
 .archive {text-align: center; width: 100%;}  
-
 .archive a {
     background: none;
     border: none;

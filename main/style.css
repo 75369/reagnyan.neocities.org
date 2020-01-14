@@ -6,7 +6,7 @@ body, html {margin: 0; padding: 0;}
 body {
 	background: #000 url('index/bg.png');
 	color: #fff;
-	font: 16px 'Calling Code', 'MS Gothic', monospace;
+	font: 16px 'Calling Code', 'MS Gothic', sans-serif;
 }
 a {
 	color: #008000;
@@ -60,6 +60,7 @@ ul {margin: 0; padding: 0 0 0 15%;}
 .content {
 	padding: 10px;
 }
+.mobileonly {display: none;}
 .new::after {content:url('index/new.gif');}
 .section, iframe {
 	background: #000;
@@ -89,6 +90,7 @@ ul {margin: 0; padding: 0 0 0 15%;}
 		max-height: none;
 		max-width: 100%;
 	}
+	.mobileonly {display: block;}
 	#main {
 		width: 100%;
 		max-width: 100%;
