@@ -1,4 +1,7 @@
+/** imports **/
 @import url('../fonts/callingcode/font.css');
+
+/** common elements **/
 body, html {margin: 0; padding: 0;} 
 body {
 	background: #000 url('index/bg.png');
@@ -9,7 +12,11 @@ a {
 	color: #008000;
 	text-decoration: none;
 }
-img {max-width: 100%;}
+img {
+	margin: 0.5em 0;
+	max-width: 100%;
+}
+p img {margin: 0;}
 h1 {
 	border: #008000 4px double;
 	color: #008000;
@@ -33,7 +40,9 @@ li:before {
 	margin-right: 5px;
 }
 ul {margin: 0; padding: 0 0 0 15%;}
-.new::after {content:url('index/new.gif');}
+
+/** class **/
+.center {text-align: center;}
 .container {
 	box-sizing: border-box;
 	display: grid;
@@ -51,6 +60,7 @@ ul {margin: 0; padding: 0 0 0 15%;}
 .content {
 	padding: 10px;
 }
+.new::after {content:url('index/new.gif');}
 .section, iframe {
 	background: #000;
 	box-sizing: border-box;
@@ -60,6 +70,8 @@ ul {margin: 0; padding: 0 0 0 15%;}
 	width: 100%;
 }
 .side {font: 14px 'Calling Code', 'MS Gothic', monospace;}
+
+/** id **/
 #main {
 	grid-area: main;
 	max-width: 600px;
@@ -67,6 +79,8 @@ ul {margin: 0; padding: 0 0 0 15%;}
 }
 #left {grid-area: left;}
 #right {grid-area: right;}
+
+/** ant screens **/
 @media (max-width: 730px) {
 	.container {
 		grid-template-areas: "left" "main" "right";

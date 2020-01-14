@@ -10,67 +10,48 @@ body {
 	background: #000 url('layout/pinkcheck.png');
 	color: #fff;
 	margin: auto;
-	width: 850px;;
 }
-
 body, table {font: 14px serif;}
-
-a, .fakelink {color: magenta;}
-
+a, .fakelink {color: #ff0000;}
 h1, h2, h3, th {
 	background: pink;
 	color: #000;
 	margin: 0;
 	width: 100%;
 }
-
 h1 {font-size: 125%;}
-
 h2, h3 {font-size: 100%;}
-
 h3 {margin: 2px 3px; width: 99%;}
-
 img {max-width: 100%;}
-
 table {width: 100%;}
-
 th {
 	text-align: left;
 	width: auto;
 }
-
 .box {
 	background: #000;
 	border: pink 3px dashed;
 	margin: 10px 0;
 	padding: 3px;
 }
-
 .center {text-align: center;}
-
 .container {
-	margin: 10px 0;
-	width: 100%;
+	margin: 10px auto;
+	width: 850px;
 }
-
-.column {}
-
 .cleft {
 	float: left;
 	width: 300px;
 }
-
 .cright {
 	float: right;
 	width: 525px;
 }
-
 .footer {
 	clear: both;
 	text-align: center;
 	width: 100%;
 }
-
 .navbar {
 	background: #000;
 	box-sizing: border-box;
@@ -79,24 +60,46 @@ th {
 	text-align: center;
 	width: 100%;
 }
-
 .profimg {
 	float: left;
 	padding: 5px 5px 0 0;
 	width: 150px;
 }
-
 .title {
 	font: 200% sans-serif;
 	text-align: left;
 }
-
 .title a {
 	color: #fff;
 	text-decoration: none;
 }
-
-#contact table {
-	color: #003399;
+#contact a {
+	color: #ff0000;
 	font: 12px monospace;
+	font-weight: bold;
+	text-decoration: none;
+}
+#contact a::before {
+	content: url('layout/syringe.gif');
+	padding: 0 1em 0 0;
+}
+
+/** ant screens **/
+@media (max-width: 860px) {
+	.container {
+		display: grid;
+		grid-template-columns: 100%;
+		width: 100%;
+	}
+	.column {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+	.cleft, .cleft {
+		float: none;
+		width: 100%;
+	}
+	.box {margin: 1em 0;}
+	.box:first-child {margin: 0 0 1em 0;}
 }

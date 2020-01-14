@@ -19,10 +19,9 @@ h1 {
 img {max-height: 100%; max-width: 100%;}
 table {
     background: #731008;
-    color: #000;
+    color: #ffffcc;
     margin: 1em auto;
     text-align: center;
-    width: 90%;
 }
 table, tr, td {
     border: 2px #000 solid;
@@ -36,4 +35,8 @@ td {
 .container {
     margin: 10px auto;
     max-width: 1200px;
+}
+.content {
+    margin: 0;
+    padding: 0;
 }

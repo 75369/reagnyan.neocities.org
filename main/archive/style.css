@@ -3,6 +3,7 @@ body, html {margin: 0; padding: 0;}
 body {
     background: #000 url('bg.gif') fixed;
     color: #fff;
+    font: 16px sans-serif;
 }
 
 a {color: #339933;}
@@ -11,7 +12,6 @@ h1, h2 {
     background: #005500;
     color: #000;
     display: inline-block;
-    font-family: sans-serif;
     margin: 0;
     padding: 8px;
     text-align: center;
@@ -20,24 +20,13 @@ h1, h2 {
 img {max-width: 100%;}
 
 .container {
-    background: url('thinkpad.png') top center no-repeat;
-    box-sizing: border-box;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 916px;
-    padding: 0;
-    position: absolute;
+    margin: 1em auto;
+    max-width: 900px;
 }
 
 .content {
-    box-sizing: border-box;
-    margin: 35px auto;
-    overflow: auto;
-    padding: 10px 15px;
-    height: 504px;
-    width: 685px;
+    background: #000;
+    padding: 2em;
 }
 
 .archive {text-align: center; width: 100%;}  
