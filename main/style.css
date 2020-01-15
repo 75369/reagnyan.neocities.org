@@ -62,6 +62,7 @@ ul {margin: 0; padding: 0 0 0 15%;}
 }
 .mobileonly {display: none;}
 .new::after {content:url('index/new.gif');}
+.updated::after {content:url('updates/updated.gif');}
 .section, iframe {
 	background: #000;
 	box-sizing: border-box;

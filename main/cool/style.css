@@ -8,11 +8,11 @@ a {color: pink;}
 h1 {
     margin: 1px;
     text-align: center;
-    text-decoration: underline wavy magenta;
+    text-decoration: underline wavy #fc97d7;
 }
 h2 {
-    background: magenta;
-    color: #000;
+    border: 4px double #fc97d7;
+    color: #fc97d7;
     display: inline-block;
     margin: 1px;
     padding: 5px;
@@ -33,7 +33,7 @@ img {max-width: 100%;}
 }
 .header, .section  {
     background: #000;
-    border: 4px double magenta;
+    border: 4px double #fc97d7;
     padding: 1em;
 }
 .section {
@@ -44,6 +44,10 @@ img {max-width: 100%;}
     overflow: auto;
 }
 .small img {max-height: 125px;}
+.fullwidth {
+    flex: 100%;
+    max-width: 100%;
+}
 @media (max-width: 800px) {
     .section {
         flex: 100%;
