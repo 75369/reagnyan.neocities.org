@@ -1,81 +1,79 @@
-/** 
- * 
- * design based on http://www.friendproject.net/ creditz 2 those guys (I also "borrowed" some images)
- * otherwise I did this with my own sweat, blood, and tears at 4am
- * - reag 
- * 
- * **/
+/** import **/
+@import url('../../fonts/ibmplexserif/font.css');
 
+/** general **/
 body {
-	background: #000 url('layout/pinkcheck.png');
+	background: #000 url('layout/checkmove.gif');
 	color: #fff;
-	margin: auto;
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
-body, table {font: 14px serif;}
-a, .fakelink {color: #ff0000;}
+body, table {font: 14px 'IBM Plex Serif', sans-serif;}
+a, .fakelink {color: #3280fb;}
 h1, h2, h3, th {
-	background: pink;
+	background: #93abed;
 	color: #000;
 	margin: 0;
 	width: 100%;
 }
-h1 {font-size: 125%;}
-h2, h3 {font-size: 100%;}
+h1 {font-size: 16px;}
+h2, h3 {font-size: 16px;}
 h3 {margin: 2px 3px; width: 99%;}
-img {max-width: 100%;}
+img, iframe {max-width: 100%;}
 table {width: 100%;}
 th {
 	text-align: left;
 	width: auto;
 }
+
+/** class **/
 .box {
 	background: #000;
-	border: pink 3px dashed;
+	border: #3348a9 4px double;
 	margin: 10px 0;
 	padding: 3px;
 }
 .center {text-align: center;}
 .container {
-	margin: 10px auto;
+	background: #000;
+	box-sizing: border-box;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 1em;
 	width: 850px;
 }
-.cleft {
-	float: left;
-	width: 300px;
-}
-.cright {
-	float: right;
-	width: 525px;
-}
-.footer {
-	clear: both;
-	text-align: center;
+.columns {
+	display: grid;
+	grid-column-gap: 1em;
+	grid-template-columns: 300px auto;
 	width: 100%;
 }
 .navbar {
 	background: #000;
+	border-bottom: #3348a9 4px double;
 	box-sizing: border-box;
-	height: 40px;
-	padding: 0 10px;
-	text-align: center;
-	width: 100%;
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 0 30px 10px;
+	width: 850px;
+}
+.navbar span {
+	padding: 0 15px;
+}
+.navbar .title {
+	color: #fff;
+	font-size: 200% ;
+	text-align: left;
+	text-decoration: none;
 }
 .profimg {
 	float: left;
 	padding: 5px 5px 0 0;
-	width: 150px;
 }
-.title {
-	font: 200% sans-serif;
-	text-align: left;
-}
-.title a {
-	color: #fff;
-	text-decoration: none;
-}
+
+/** id **/
 #contact a {
-	color: #ff0000;
-	font: 12px monospace;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -83,23 +81,14 @@ th {
 	content: url('layout/syringe.gif');
 	padding: 0 1em 0 0;
 }
+#url span {
+	font: 12px monospace;
+}
 
 /** ant screens **/
-@media (max-width: 860px) {
-	.container {
-		display: grid;
-		grid-template-columns: 100%;
-		width: 100%;
-	}
-	.column {
-		margin: 0;
-		padding: 0;
-		width: 100%;
-	}
-	.cleft, .cleft {
-		float: none;
-		width: 100%;
-	}
+@media (max-width: 840px) {
+	.container, .navbar {width: 100%;}
+	.columns {grid-template-columns: 100%;}
 	.box {margin: 1em 0;}
 	.box:first-child {margin: 0 0 1em 0;}
 }
