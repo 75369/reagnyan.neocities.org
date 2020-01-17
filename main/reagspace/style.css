@@ -1,25 +1,42 @@
+/**
+* reag 2019 - 2020
+* what up
+* people can talk shit about rounded elements being ugly all they want but I love the look
+* referenced against friendproject more than myspace iirc
+**/
+
 /** import **/
 @import url('../../fonts/ibmplexserif/font.css');
 
 /** general **/
-body {
-	background: #000 url('layout/checkmove.gif');
-	color: #fff;
-	height: 100%;
+body, html {
 	margin: 0;
 	padding: 0;
 }
+body {
+	background: #000 url('layout/checkmove.gif');
+	color: #fff;
+}
 body, table {font: 14px 'IBM Plex Serif', sans-serif;}
-a, .fakelink {color: #3280fb;}
+a {color: #3280fb;}
 h1, h2, h3, th {
 	background: #93abed;
+	border-radius: 3px;
+	box-sizing: border-box;
 	color: #000;
 	margin: 0;
+	padding: 2px 4px;
+}
+h1, h2 {
+	font-size: 16px;
 	width: 100%;
 }
-h1 {font-size: 16px;}
-h2, h3 {font-size: 16px;}
-h3 {margin: 2px 3px; width: 99%;}
+h3 {
+	display: inline-block;
+	font-size: 15px;
+	margin: 2px 3px; 
+	padding: 2px 4px;
+}
 img, iframe {max-width: 100%;}
 table {width: 100%;}
 th {
@@ -31,16 +48,21 @@ th {
 .box {
 	background: #000;
 	border: #3348a9 4px double;
+	border-radius: 7px;
 	margin: 10px 0;
 	padding: 3px;
 }
 .center {text-align: center;}
+.container, .footer, .header {
+	border-left: #3348a9 4px double;
+	border-right: #3348a9 4px double;
+}
 .container {
 	background: #000;
 	box-sizing: border-box;
 	height: 100%;
 	margin: 0 auto;
-	padding: 0 1em;
+	padding: 0 1em 1em;
 	width: 850px;
 }
 .columns {
@@ -49,19 +71,25 @@ th {
 	grid-template-columns: 300px auto;
 	width: 100%;
 }
-.navbar {
+.footer, .header {
 	background: #000;
-	border-bottom: #3348a9 4px double;
 	box-sizing: border-box;
 	font-family: sans-serif;
 	margin: 0 auto;
-	padding: 0 30px 10px;
 	width: 850px;
 }
-.navbar span {
+.footer {
+	border-top: #3348a9 4px double;
+	padding: 10px 30px 10px;
+}
+.header {
+	border-bottom: #3348a9 4px double;
+	padding: 0 30px 10px;
+}
+.header span {
 	padding: 0 15px;
 }
-.navbar .title {
+.header .title {
 	color: #fff;
 	font-size: 200% ;
 	text-align: left;
@@ -81,12 +109,11 @@ th {
 	content: url('layout/syringe.gif');
 	padding: 0 1em 0 0;
 }
-#url span {
-	font: 12px monospace;
-}
+#interests td, #details td {width: 70%;}
+#url span {font: 12px monospace;}
 
 /** ant screens **/
-@media (max-width: 840px) {
+@media (max-width: 800px) {
 	.container, .navbar {width: 100%;}
 	.columns {grid-template-columns: 100%;}
 	.box {margin: 1em 0;}
