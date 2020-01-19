@@ -1,0 +1,41 @@
+/** element **/
+body {
+    background: #fff url('bg.gif') fixed repeat;
+    font: 30px 'Comic Sans MS', sans-serif;
+}
+a {
+    color: #a970ff;
+    text-decoration: wavy;
+}
+video {max-width: 100%;}
+
+/** class **/
+.content {
+    color: #61c6d0;
+    margin: 110px auto;
+    max-width: 720px;
+    text-align: center;
+    text-shadow: 0 0 0.1em #61c6d0;
+}
+.content p {
+    background: #002430;
+    display: inline-block;
+}
+.eee img {
+    max-width: 49%;
+}
+.top, .bottom {
+    background: url('bg2.gif');
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.top {
+    top: 0;
+}
+.bottom {
+    bottom: 0;
+}
+
+/** id **/
