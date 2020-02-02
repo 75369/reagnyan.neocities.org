@@ -1,0 +1,36 @@
+/* I am so fucking uninspired rn */
+
+/* general */
+body, html, .container {height: 100%;}
+body {
+    background: #000 url('layout/bg.png') fixed repeat;
+    color: #fff;
+    font: 16px sans-serif;
+}
+a {
+    color: #e5237d;
+    text-decoration: none;
+}
+h1, h2 {
+    color: #e85c9b;
+    margin: 0;
+    text-shadow: 2px 1px #e98db5;
+}
+h1 {text-align: center;}
+h2 {margin: 1.5em 0 0 0;}
+
+/* class */
+.container, .content {box-sizing: border-box;}
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.content {
+    background: #000;
+    border: #fff double;
+    border-width: 0 4px 0 4px;
+    margin: 0;
+    padding: 1em;
+}
+
+/* id */
