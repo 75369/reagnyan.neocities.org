@@ -22,7 +22,7 @@ h1 {
 	color: #008000;
 	font-size: 22px;
 	margin: 0;
-	padding: 10px 0;
+	padding: 8px 0;
 	text-align: center;
 }
 h2 {
@@ -47,8 +47,12 @@ ul {margin: 0; padding: 0 0 0 15%;}
 	box-sizing: border-box;
 	display: grid;
 	grid-column-gap: 10px;
-	grid-template-areas: "left main right";
+	grid-row-gap: 10px;
+	grid-template-areas: 
+		"left main right_top"
+		"left main right_bottom";
 	grid-template-columns: 200px auto 200px;
+	grid-template-rows: 257px auto;
 	justify-items: center;
 	height: 100%;
 	margin: 0 auto;
@@ -57,21 +61,28 @@ ul {margin: 0; padding: 0 0 0 15%;}
 	padding: 10px;
 	width: 100%;
 }
-.content {
-	padding: 10px;
+.content {padding: 10px;}
+.icon {
+	float: left;
+	margin: 1em 0.5em 0 0;
 }
 .mobileonly {display: none;}
 .new::after {content:url('index/new.gif');}
-.updated::after {content:url('updates/updated.gif');}
+.updated::after {content:url('index/updated.gif');}
 .section, iframe {
 	background: #000;
 	box-sizing: border-box;
 	border: #008000 4px double;
-	height: 100%;
 	overflow-y: auto;
 	width: 100%;
 }
 .side {font: 14px 'Calling Code', 'MS Gothic', monospace;}
+.webmaster {
+	background: #fff url('index/about/rainbow.gif');
+	color: #000;
+	font-family: 'Comic Sans MS', sans-serif;
+	font-weight: bold;
+}
 
 /** id **/
 #main {
@@ -79,13 +90,15 @@ ul {margin: 0; padding: 0 0 0 15%;}
 	max-width: 600px;
 	min-width: 300px;
 }
+#main, #left {height: 100%;}
 #left {grid-area: left;}
-#right {grid-area: right;}
+#right_top {grid-area: 'right_top';}
+#right_bottom {grid-area: 'right_bottom';}
 
 /** ant screens **/
-@media (max-width: 730px) {
+@media (max-width: 750px) {
 	.container {
-		grid-template-areas: "left" "main" "right";
+		grid-template-areas: "left" "main" "right_top" "right_bottom";
 		grid-template-columns: 100%;
 		height: auto;
 		max-height: none;

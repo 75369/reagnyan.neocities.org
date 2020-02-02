@@ -7,12 +7,11 @@
 @import url('../../fonts/crimson/font.css');
 
 /** general **/
+body, html {height: calc(100% - 3em);}
 body {
     background: #000 url('https://siralos.neocities.org/archive/2017-03-24/img/repeat.jpg') fixed repeat;
     color: #fba557;
-    font: 18px 'Crimson', serif;
-    margin: 0;
-    padding: 0;
+    font: 16px sans-serif;
 }
 a {
     color: #fba557;
@@ -23,6 +22,7 @@ h1, h2 {
     background: #191919;
     border: 3px solid #191919;
     border-radius: 7px;
+    font-family: 'Crimson', serif;
 }
 h1 {
     padding: 10px;
@@ -36,14 +36,18 @@ h2 {
 
 /** class **/
 .center {text-align: center;}
+.container, .content {box-sizing: border-box;}
 .container {
+    height: 100%;
+    margin: 0 auto;
+    max-width: 700px;
+}
+.content {
     background: #000;
     border: 3px solid #191919;
     border-radius: 7px;
-    box-sizing: border-box;
-    height: 700px; 
-    margin: 2em auto;
-    max-width: 700px;
+    height: 100%;
+    margin: 1.5em auto;
     opacity: 0.9;
     overflow: auto;
     padding: 1em;
