@@ -1,0 +1,25 @@
+/** element **/
+body {
+    background: #695E51;
+    color: #89F1BD;
+    font: 16px sans-serif;
+}
+
+/** class **/
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1em;
+}
+.content {
+}
+.gallery {
+    display: flex;
+    flex-flow: row wrap;;
+}
+.gallery img {
+    margin: 5px;
+    max-width: 175px;
+}
+
+/** id **/
