@@ -44,7 +44,8 @@ img {max-width: 100%;}
     text-align: center;
 }
 .header, .section  {
-    background: #000 url('bgshooting.gif') top repeat-x;
+    background: #000;
+    /**background: #000 url('bgshooting.gif') top repeat-x;**/
     border: 4px double #fc97d7;
     padding: 1em;
 }
