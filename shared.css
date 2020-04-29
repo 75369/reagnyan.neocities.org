@@ -13,3 +13,5 @@ img, iframe {max-width: 100%;}
     padding: 1px;
 }
 .spoiler:hover {color: #fff;}
+/** curvy **/
+.curved {border-radius: 10px;}
