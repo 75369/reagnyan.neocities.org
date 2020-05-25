@@ -2,24 +2,21 @@
 @import url('../fonts/callingcode/font.css');
 
 /** common elements **/
-body, html {margin: 0; padding: 0;} 
 body {
-	background: #000 url('index/bg.png');
+	background: #000 url('index/bg_purple.jpg') fixed repeat;
 	color: #fff;
 	font: 16px 'Calling Code', 'MS Gothic', sans-serif;
 }
 a {
-	color: #008000;
+	color: #4f4ead;
 	text-decoration: none;
 }
-img {
-	margin: 0.5em 0;
-	max-width: 100%;
-}
+img {margin: 0.5em 0;}
 p img {margin: 0;}
 h1 {
-	border: #008000 4px double;
-	color: #008000;
+	border: #4f4ead 4px double;
+    border-radius: 10px;
+	color: #4f4ead;
 	font-size: 22px;
 	margin: 0;
 	padding: 8px 0;
@@ -72,7 +69,8 @@ ul {margin: 0; padding: 0 0 0 15%;}
 .section, iframe {
 	background: #000;
 	box-sizing: border-box;
-	border: #008000 4px double;
+    border: #4f4ead 4px double;
+    border-radius: 10px;
 	overflow-y: auto;
 	width: 100%;
 }

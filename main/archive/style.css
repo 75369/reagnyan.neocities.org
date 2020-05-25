@@ -1,30 +1,17 @@
-body, html {margin: 0; padding: 0;}
-body {
-    background: #000 url('bg.gif') fixed;
-    color: #fff;
-    font: 16px sans-serif;
-}
+/* layout overrides */
+
+/* general */
+body, html, .container {height: 100%;}
+body {background: #000 url('bg.gif') fixed repeat;}
 a {color: #339933;}
-h1, h2 {
-    background: #005500;
-    border: #008000 4px double;
-    color: #000;
-    margin: 0 auto;
-    text-align: center;
-}
-h1 {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    padding: 6px;
-}
-h2 {
-    display: inline-block;
-    padding: 5px 10px;
-}
-img {max-width: 100%;}
+h1, h2 {color: #339933;}
+h1 {border-color: #005500;}
+
+/* class */
+.section {border-color: #005500;}
+
+/* id */
 table {
-    
     width: 100%;
 }
 table, th, td {
@@ -35,24 +22,6 @@ td {
     max-width: 50%;
     padding: 5px;
 }
-
-.back {
-    background: #000;
-    border: #008000 4px double;
-    margin: 0.5em auto;
-    padding: 10px;
-    width: 240px;
-}
-.center {text-align: center;}
-.container {
-    margin: 0.5em auto;
-    max-width: 1200px;
-}
-.content {
-    background: #000;
-    border: #008000 4px double;
-    padding: 2em;
-}
 .archive {text-align: center; width: 100%;}  
 .archive a {
     background: none;
@@ -61,6 +30,7 @@ td {
 }  
 .archive img {
     border: #005500 1px solid; 
+    border-radius: 10px;
     margin: 5px;
     object-fit: cover;
     vertical-align: middle;

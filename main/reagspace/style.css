@@ -73,6 +73,7 @@ th {
 	grid-template-columns: 292px auto;
 	width: 100%;
 }
+.curve {border-radius: 7px;}
 .footer, .header {
 	background: #000;
 	box-sizing: border-box;
