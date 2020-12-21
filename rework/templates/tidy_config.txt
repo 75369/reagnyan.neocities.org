@@ -1,0 +1,8 @@
+quiet: yes
+write-back: yes
+indent: auto
+indent-spaces: 2
+wrap: 0
+drop-empty-elements: no
+doctype: html5
+language: en-gb
