@@ -1,0 +1,17 @@
+/** element **/
+body {
+    background: #fff url('') fixed repeat;
+}
+a {
+    color: #a970ff;
+    text-decoration: wavy;
+}
+
+/** class **/
+.content {
+    margin: 110px auto;
+    max-width: 720px;
+    text-align: center;
+}
+.content p {
+}
